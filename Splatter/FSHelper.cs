@@ -175,17 +175,17 @@ namespace Splatter
             foreach (var tmp in dpp)
                 tmp.Print();
 
-            Console.WriteLine("-----------------------CrashDump partition\n");
+            Console.WriteLine("-----------------------CrashDump Directory\n");
             foreach (var tmp in crashdump)
                 tmp.Print();
 
 
-            Console.WriteLine("-----------------------MainOS Partition\n");
+            Console.WriteLine("-----------------------Main Directory \n");
             foreach (var tmp in mainOS)
                 tmp.Print();
 
 
-            Console.WriteLine("-----------------------Data Partition\n");
+            Console.WriteLine("-----------------------Data Directory\n");
             foreach (var tmp in data)
                 tmp.Print();
 
