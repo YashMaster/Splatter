@@ -5,7 +5,7 @@ namespace Splatter
 {
     class Program
     {
-        static string AppName = "fsdiff";
+        static string AppName = "splatter";
 
         static void Main(string[] args)
         {
